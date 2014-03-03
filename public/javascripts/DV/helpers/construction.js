@@ -21,7 +21,7 @@ DV._.extend(DV.Schema.helpers, {
     var footerHTML = JST.footer({options : this.viewer.options});
 
     var pdfURL = doc.resources.pdf;
-    pdfURL = pdfURL && this.viewer.options.pdf !== false ? '<a target="_blank" href="' + pdfURL + '">Original Document (PDF) &raquo;</a>' : '';
+    pdfURL = pdfURL && this.viewer.options.pdf !== false ? '<a target="_blank" href="' + pdfURL + '">Oorspronkelijk Document (PDF) &raquo;</a>' : '';
 
     var contribs = doc.contributor && doc.contributor_organization &&
                    ('' + doc.contributor + ', '+ doc.contributor_organization);
