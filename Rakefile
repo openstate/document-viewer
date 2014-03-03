@@ -1,3 +1,4 @@
+task :default => ['build:all']
 namespace :build do
 
   desc "Rebuild just the templates, no CSS or JS"
